@@ -3,9 +3,7 @@
 Welcome to my personal portfolio website! This site highlights who I am, the skills I’m building, and the projects I’m working on as I transition into a career in data analytics.
 
 ## 🔗 Live Website
-
-👉 [View My Website](https://nuriabdus.github.io/portfolio-website/)
-## 🧠 About Me
+https://nuriabdus.github.io/.ipython/
 
 I'm Nuri Abdus — a data analyst in training with a Business Administration degree from William Peace University and 4+ years of technical experience at Corning. I'm currently completing a data science bootcamp with TripleTen, where I'm learning Python, SQL, Excel, and data visualization.
 
