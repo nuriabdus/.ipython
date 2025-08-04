@@ -53,30 +53,35 @@
 </body>
   <section id="projects">
   <h2>PROJECTS</h2>
+  
   <div class="project">
     <h3>Instacart Customer Behavior Analysis</h3>
-    <ul>
-      <li>Cleaned and analyzed a modified grocery ordering dataset using pandas and matplotlib</li>
-      <li>Identified and removed missing and duplicate values, verified data integrity across multiple tables</li>
-      <li>Explored customer shopping patterns by time of day and day of week, and visualized ordering behavior</li>
-      <li>Uncovered top 20 most ordered and reordered products and measured customer reorder tendencies</li>
-    </ul>
+    <p><strong>Tools:</strong> Python, pandas, matplotlib, data visualization, EDA</p>
+    <p><strong>Data:</strong> A modified version of Instacart’s grocery order data, including orders, products, departments, and customer behavior.</p>
+    <p><strong>Goal:</strong> Understand shopping habits by time, product, and customer reordering patterns.</p>
+    <p><strong>Challenges:</strong> Missing and duplicate values were introduced intentionally; datasets required merging and cleaning across multiple tables.</p>
+    <p><strong>Solutions & Methods:</strong> Cleaned and joined datasets using pandas; handled missing values and duplicates; verified distributions in key time-based fields; created histograms and bar charts to show customer behavior.</p>
+    <p><strong>Insights:</strong> Identified top 20 most ordered and reordered products; discovered that weekends and late mornings saw peak activity; analyzed typical time between orders and items per order.</p>
   </div>
+  
   <div class="project">
     <h3>Megaline Telecom Plan Analysis</h3>
-    <ul>
-      <li>Compared two prepaid phone plans using monthly usage and revenue data</li>
-      <li>Conducted statistical hypothesis testing to assess differences in average revenue by region and plan</li>
-      <li>Provided recommendations to optimize pricing strategy based on usage trends and customer behavior</li>
-    </ul>
+    <p><strong>Tools:</strong> Hypothesis testing, Python, statistical analysis, pandas, scipy</p>
+    <p><strong>Data:</strong> Monthly usage and revenue data for customers subscribed to two different phone plans (Surf and Ultimate).</p>
+    <p><strong>Goal:</strong> Identify which plan is more profitable and whether location impacts revenue.</p>
+    <p><strong>Challenges:</strong> Revenue had to be calculated from raw usage using plan pricing rules; some entries contained $0 revenue and required validation.</p>
+    <p><strong>Solutions & Methods:</strong> Cleaned data, calculated monthly revenue per user, segmented by region and plan, performed independent t-tests to compare average revenue.</p>
+    <p><strong>Insights:</strong> Found statistically significant differences in revenue between plans; users in NY/NJ showed distinct usage patterns that influenced profitability.</p>
   </div>
+  
   <div class="project">
     <h3>Streaming Content Dataset Exploration</h3>
-    <ul>
-      <li>Performed exploratory data analysis on a dataset of movies and shows using pandas</li>
-      <li>Investigated content distributions by genre, release year, and platform</li>
-      <li>Visualized trends and patterns in media content to draw business-relevant insights</li>
-    </ul>
+    <p><strong>Tools:</strong> pandas, data wrangling, visualization</p>
+    <p><strong>Data:</strong> Dataset of streaming movies and TV shows including genre, rating, platform, and release year.</p>
+    <p><strong>Goal:</strong> Explore trends in content availability, genre distribution, and release patterns.</p>
+    <p><strong>Challenges:</strong> Columns contained inconsistencies in genres and platform labels; some values missing or misformatted.</p>
+    <p><strong>Solutions & Methods:</strong> Cleaned and standardized genre/platform columns, grouped and visualized data using bar charts and value counts.</p>
+    <p><strong>Insights:</strong> Identified most common genres across platforms, content concentration trends by year, and potential market gaps in content types.</p>
   </div>
 </section>
 </html>
